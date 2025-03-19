@@ -1,6 +1,6 @@
 # API RESTful com Flask e JWT
 
-Este é um projeto de uma API RESTful desenvolvida com **Flask**, **SQLAlchemy** e **Flask-JWT-Extended**. A API permite **registro de usuários**, **login com JWT**, **autenticação segura** e manipulação de dados (CRUD). Ideal para demonstrar a criação de APIs seguras com autenticação e persistência de dados.
+Este é um projeto de uma API RESTful desenvolvida com **Flask**, **SQLAlchemy** e **Flask-JWT-Extended**. A API permite **registro de usuários**, **login com JWT**, **autenticação segura**, **criptografia de senhas**e manipulação de dados (CRUD). Ideal para demonstrar a criação de APIs seguras com autenticação e persistência de dados.
 
 ## Funcionalidades
 
@@ -8,7 +8,7 @@ Este é um projeto de uma API RESTful desenvolvida com **Flask**, **SQLAlchemy**
 - **Login com JWT**: Após o login, um token JWT é gerado e pode ser usado para acessar rotas protegidas.
 - **Rotas protegidas**: Algumas rotas exigem autenticação, garantindo a segurança da aplicação.
 - **CRUD de usuários**: Capacidade de criar, ler, atualizar e excluir dados dos usuários.
-
+  
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem principal para o desenvolvimento da API.
@@ -16,6 +16,7 @@ Este é um projeto de uma API RESTful desenvolvida com **Flask**, **SQLAlchemy**
 - **SQLAlchemy**: ORM (Object Relational Mapper) utilizado para interagir com o banco de dados.
 - **Flask-JWT-Extended**: Extensão para autenticação JWT (JSON Web Token).
 - **SQLite**: Banco de dados leve para armazenar as informações dos usuários.
+- **Werkzeug**: Usado para criptografia de senhas, garantindo que as senhas dos usuários sejam armazenadas de forma segura.
 
 ## Instalação
 
